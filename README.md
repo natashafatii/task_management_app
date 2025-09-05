@@ -17,7 +17,7 @@ This project demonstrates **state management with Provider, theming (light & dar
 ---
 
 ## 📂 Folder Structure
-'
+''
 lib/
 ├── constants/
 │   ├── app_colors.dart      // Application color constants
@@ -59,7 +59,7 @@ lib/
 │   └── task_tile.dart       // Task list item widget
 │
 └── main.dart                // Application entry point
-'
+''
 ---
 
 ## 🛠️ Tech Stack
