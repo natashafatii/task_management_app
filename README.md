@@ -17,16 +17,49 @@ This project demonstrates **state management with Provider, theming (light & dar
 ---
 
 ## 📂 Folder Structure
+'
 lib/
-│── constants/ # App-wide constants (colors, strings, styles)
-│── models/ # Data models (TaskModel)
-│── providers/ # State management (TaskProvider, ThemeProvider)
-│── screens/ # UI Screens (Home, Login, Add/Edit Task, Splash, Detail)
-│── services/ # Services (API/DB integration placeholder)
-│── themes/ # Light & Dark theme configuration
-│── utils/ # Helpers & utilities (validators, date-time, dialogs, etc.)
-│── widgets/ # Reusable UI components
-│── main.dart # Entry point
+├── constants/
+│   ├── app_colors.dart      // Application color constants
+│   ├── app_constants.dart   // General application constants
+│   ├── app_strings.dart     // All text strings used in the app
+│   └── app_styles.dart      // Text and UI styling definitions
+│
+├── models/
+│   └── task_model.dart      // Data model for tasks
+│
+├── providers/
+│   ├── task_provider.dart   // State management for tasks
+│   └── theme_provider.dart  // Theme management (light/dark mode)
+│
+├── screens/
+│   ├── splash_screen.dart   // Initial loading screen
+│   ├── login_screen.dart    // User authentication screen
+│   ├── home_screen.dart     // Main task listing screen
+│   ├── add_task_screen.dart // Screen for creating new tasks
+│   ├── edit_task_screen.dart// Screen for modifying existing tasks
+│   └── task_detail_screen.dart // Detailed view of a single task
+│
+├── services/                // External service integrations
+│
+├── themes/
+│   └── light_dart_theme.dart // Application theme definitions
+│
+├── utils/
+│   ├── async_utils.dart     // Utilities for async operations
+│   ├── date_time_utils.dart // Date and time formatting helpers
+│   ├── dialog_utils.dart    // Common dialog implementations
+│   ├── helpers.dart         // Miscellaneous helper functions
+│   └── validators.dart      // Input validation utilities
+│
+├── widgets/
+│   ├── custom_app_bar.dart  // Custom app bar implementation
+│   ├── empty_state.dart     // Widget for empty states
+│   ├── loading_indicator.dart // Custom loading indicators
+│   └── task_tile.dart       // Task list item widget
+│
+└── main.dart                // Application entry point
+'
 ---
 
 ## 🛠️ Tech Stack
